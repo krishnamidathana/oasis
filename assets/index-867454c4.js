@@ -1152,7 +1152,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   width: 2.4rem;
   height: 2.4rem;
   animation: ${Cfe} 1.5s infinite linear;
-`;function Tfe(){const[e,t]=P.useState("mohan@example.com"),[r,n]=P.useState("Thewildoasis@66"),{login:i,isLoading:a}=Pfe();function o(s){s.preventDefault(),!(!e||!r)&&i({email:e,password:r},{onSettled:()=>{t(""),n("")}})}return K(no,{onSubmit:o,children:[E(am,{label:"Email address",children:E(Ct,{type:"email",id:"email",autoComplete:"username",value:e,onChange:s=>t(s.target.value),disabled:a})}),E(am,{label:"Password",children:E(Ct,{type:"password",id:"password",autoComplete:"current-password",value:r,onChange:s=>n(s.target.value),disabled:a})}),E(am,{children:E(st,{size:"large",disabled:a,children:a?E(SM,{}):"Log in"})})]})}const $fe=ne.div`
+`;function Tfe(){const[e,t]=P.useState(""),[r,n]=P.useState(""),{login:i,isLoading:a}=Pfe();function o(s){s.preventDefault(),!(!e||!r)&&i({email:e,password:r},{onSettled:()=>{t(""),n("")}})}return K(no,{onSubmit:o,children:[E(am,{label:"Email address",children:E(Ct,{type:"email",id:"email",autoComplete:"username",value:e,onChange:s=>t(s.target.value),disabled:a})}),E(am,{label:"Password",children:E(Ct,{type:"password",id:"password",autoComplete:"current-password",value:r,onChange:s=>n(s.target.value),disabled:a})}),E(am,{children:E(st,{size:"large",disabled:a,children:a?E(SM,{}):"Log in"})})]})}const $fe=ne.div`
   text-align: center;
 `,Mfe=ne.img`
   height: 9.6rem;
